@@ -1,0 +1,114 @@
+/* Reset CSS - Complexo */
+
+/* 1. Zera margin, padding e borda de todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Corrige o comportamento de elementos block-level */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+figure,
+dl,
+dd {
+  margin: 0;
+}
+
+/* 3. Define o estilo padrão de listas */
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* 4. Corrige tabelas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 5. Define estilo padrão de links */
+a {
+  text-decoration: none;
+  color: inherit; /* Herda a cor do pai */
+}
+
+/* 6. Remove estilos padrão de botões */
+button,
+input,
+select,
+textarea {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+}
+
+/* 7. Configura elementos interativos */
+button,
+input {
+  cursor: pointer;
+}
+button:disabled,
+input:disabled {
+  cursor: not-allowed;
+}
+
+/* 8. Configura estilos para inputs e textareas */
+textarea {
+  resize: none; /* Remove redimensionamento padrão */
+}
+
+/* 9. Define altura mínima e remove rolagem desnecessária */
+html,
+body {
+  height: 100%;
+  line-height: 1.5; /* Linha-base para boa legibilidade */
+  font-size: 100%;
+  font-family: Arial, sans-serif; /* Ajuste para a fonte padrão */
+  overflow-x: hidden; /* Evita rolagem horizontal acidental */
+}
+
+/* 10. Adiciona estilos base para imagens */
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+/* 11. Configura estilos padrão para elementos semânticos */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+/* 12. Remove espaçamento entre iframe e conteúdo */
+iframe {
+  border: none;
+}
+
+/* 13. Remove espaçamento extra em formulário */
+form {
+  margin: 0;
+}

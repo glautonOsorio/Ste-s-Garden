@@ -1,0 +1,45 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.teste {
+  width: 75%;
+}
+
+.main-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-title {
+  font-family: var(--title-font);
+  -webkit-text-stroke: 1px var(--accent);
+  color: var(--text);
+  margin-right: 50rem;
+  padding-left: 1rem;
+}
+
+.line {
+  width: 75%;
+  border: 0;
+  height: 3px;
+  background-color: var(--tertiary);
+  margin: 0.5rem auto 1rem auto;
+}
+
+.card-flower-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 80%;
+  padding: 0.6rem;
+  gap: 1.2rem;
+  margin: 0 auto;
+}
