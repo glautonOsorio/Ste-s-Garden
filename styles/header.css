@@ -7,12 +7,14 @@
 
 #logo {
   max-width: 40%;
+  cursor: pointer;
 }
 
 .nav-container {
   display: flex;
+  border-radius: 10rem;
   background-color: var(--primary);
-  width: 75%;
+  width: 80%;
   justify-content: center;
   align-items: center;
 }
