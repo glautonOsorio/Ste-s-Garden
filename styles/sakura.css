@@ -1,6 +1,6 @@
 #sakura-img {
   position: fixed;
-  height: 14rem;
+  height: 10rem;
   z-index: 1000;
   top: 1;
   left: 1;
@@ -9,7 +9,7 @@
 
 #sakura-img-2 {
   position: fixed;
-  height: 14rem;
+  height: 10rem;
   z-index: 1000;
   bottom: 0;
   transform: rotate(90deg);

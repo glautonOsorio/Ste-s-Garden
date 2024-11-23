@@ -39,7 +39,6 @@
 .accordion {
   width: 60%;
   margin: auto;
-  border: 1px solid var(--tertiary);
   border-radius: 5px;
   overflow: hidden;
 }

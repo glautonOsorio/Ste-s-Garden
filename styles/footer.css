@@ -8,8 +8,8 @@ footer {
 
 span {
   color: var(--text);
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1.4rem;
+  font-weight: 400;
   -webkit-text-stroke: 1px var(--accent);
 }
 

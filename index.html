@@ -23,10 +23,16 @@
       <img id="logo" src="./assets/logo-ste-no-bg.png" alt="" />
       <nav class="nav-container">
         <ul class="nav-content">
-          <li class="nav-content-link"><a href="#"> Flores</a></li>
-          <li class="nav-content-link"><a href="#"> Cestas</a></li>
-          <li class="nav-content-link"><a href="#"> Buquês</a></li>
-          <li class="nav-content-link"><a href="#">Plantas</a></li>
+          <li class="nav-content-link">
+            <a href="./pages/flores.html"> Flores</a>
+          </li>
+          <li class="nav-content-link">
+            <a href="./pages/cestas.html"> Cestas</a>
+          </li>
+          <li class="nav-content-link">
+            <a href="./pages/buques.html"> Buquês</a>
+          </li>
+
           <li class="nav-content-link">
             <a href="./pages/ajuda.html"> FAQ</a>
           </li>
@@ -42,17 +48,24 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="./assets/sunflowerField.jpg"
+                class="carousel-img"
+                src="./assets/sunflower4.jpeg"
                 class="d-block w-100"
                 alt="..."
               />
             </div>
             <div class="carousel-item">
-              <img src="./assets/lupine-.jpg" class="d-block w-100" alt="..." />
+              <img
+                class="carousel-img"
+                src="./assets/flower-field1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
             </div>
             <div class="carousel-item">
               <img
-                src="./assets/2-lotus-.jpg"
+                class="carousel-img"
+                src="./assets/flower-field2.jpg"
                 class="d-block w-100"
                 alt="..."
               />
@@ -83,36 +96,47 @@
         <hr class="line" />
         <div class="card-flower-wrapper">
           <div class="card" style="width: 18rem">
-            <img src="./assets/lotus.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Lotus Rosa e Branca</h5>
-              <p class="card-text">
-                Uma flor delicada e elegante, conhecida por simbolizar pureza e
-                renascimento. Suas pétalas suaves emergem graciosamente na
-                superfície da água.
-              </p>
-              <br />
-              <h6 class="card-subtitle">R$ 89,90</h6>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem">
             <img
-              src="./assets/lupinus-polyphyllus.jpg"
+              class="card-img"
+              src="./assets/flower-2.jpg"
               class="card-img-top"
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Lupine Roxa</h5>
+              <h5 class="card-title">Arranjo de Flores Laranja e Branca</h5>
               <p class="card-text">
-                Uma flor vibrante e cheia de personalidade. Suas pétalas
-                dispostas em espiral são um espetáculo encantador da natureza.
+                Um delicado arranjo que combina flores em tons de laranja e
+                branco, ideal para transmitir elegância e frescor em qualquer
+                ambiente.
               </p>
               <br />
-              <h6 class="card-subtitle">R$ 74,90</h6>
+              <h6 class="card-subtitle">R$ 79,90</h6>
             </div>
           </div>
           <div class="card" style="width: 18rem">
-            <img src="./assets/sunflower2.jpg" class="card-img-top" alt="..." />
+            <img
+              class="card-img"
+              src="./assets/flower-1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Buquê Colorido Vibrante</h5>
+              <p class="card-text">
+                Uma composição de flores multicoloridas que traz alegria e
+                vivacidade. Perfeito para iluminar o dia de alguém especial.
+              </p>
+              <br />
+              <h6 class="card-subtitle">R$ 69,90</h6>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img"
+              src="./assets/sunflower3.jpg"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body">
               <h5 class="card-title">Girassol</h5>
               <p class="card-text">
@@ -131,39 +155,54 @@
         <hr class="line" />
         <div class="card-flower-wrapper">
           <div class="card" style="width: 18rem">
-            <img src="./assets/basket-1.jpg" class="card-img-top" alt="..." />
+            <img
+              class="card-img"
+              src="./assets/basket-1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body">
-              <h5 class="card-title">Cesta Gourmet com Vinhos e Presentes</h5>
+              <h5 class="card-title">Cesta de Piquenique Elegante</h5>
               <p class="card-text">
-                Uma cesta especial com vinhos selecionados e itens gourmet,
-                perfeita para celebrações e ocasiões memoráveis.
+                Uma cesta encantadora com vibrantes girassóis, ideal para
+                momentos ao ar livre e piqueniques.
               </p>
               <br />
-              <h6 class="card-subtitle">R$ 349,90</h6>
+              <h6 class="card-subtitle">R$ 189,90</h6>
             </div>
           </div>
           <div class="card" style="width: 18rem">
-            <img src="./assets/basket-2.jpg" class="card-img-top" alt="..." />
+            <img
+              class="card-img"
+              src="./assets/basket-2.jpg"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body">
-              <h5 class="card-title">Cesta de Picnic Elegante</h5>
+              <h5 class="card-title">Cesta Vinhos e Sabores</h5>
               <p class="card-text">
-                Um conjunto sofisticado com flores, frutas e guloseimas, ideal
-                para momentos ao ar livre e piqueniques encantadores.
+                Uma seleção sofisticada de vinhos, queijos e delícias gourmet,
+                ideal para encontros românticos ou celebrações requintadas.
               </p>
               <br />
-              <h6 class="card-subtitle">R$ 289,90</h6>
+              <h6 class="card-subtitle">R$ 329,90</h6>
             </div>
           </div>
           <div class="card" style="width: 18rem">
-            <img src="./assets/basket-3.jpg" class="card-img-top" alt="..." />
+            <img
+              class="card-img"
+              src="./assets/basket-3.jpg"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body">
-              <h5 class="card-title">Cesta Elegante com Flores e Verdes</h5>
+              <h5 class="card-title">Cesta Piquenique dos Sonhos</h5>
               <p class="card-text">
-                Um arranjo sofisticado de flores e folhagens, trazendo harmonia
-                e frescor para o seu espaço.
+                Um conjunto perfeito para momentos inesquecíveis ao ar livre,
+                com frutas frescas, queijos, pães e bebidas selecionadas.
               </p>
               <br />
-              <h6 class="card-subtitle">R$ 199,90</h6>
+              <h6 class="card-subtitle">R$ 299,90</h6>
             </div>
           </div>
         </div>
@@ -175,23 +214,42 @@
         <div class="card-flower-wrapper">
           <div class="card" style="width: 18rem">
             <img
-              src="./assets/bouquet-flor-3.jpg"
+              class="card-img"
+              src="./assets/bouquet-flor-9.jpg"
               class="card-img-top"
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Buquê de Rosas Amarelas</h5>
+              <h5 class="card-title">Buquê Delicado Rosa</h5>
               <p class="card-text">
-                Um arranjo radiante de rosas amarelas que simbolizam alegria e
-                amizade, perfeito para iluminar o dia de alguém especial.
+                Um encantador buquê de rosas combinado com flores delicadas,
+                trazendo charme e romantismo para qualquer ocasião especial
               </p>
               <br />
-              <h6 class="card-subtitle">R$ 129,90</h6>
+              <h6 class="card-subtitle">R$ 159,90</h6>
             </div>
           </div>
           <div class="card" style="width: 18rem">
             <img
-              src="./assets/bouquet-flor-1.jpg"
+              class="card-img"
+              src="./assets/bouquet-flor-6.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Buquê de Flores Rosadas</h5>
+              <p class="card-text">
+                Elegância em tons rosados, com flores delicadas que trazem um
+                toque de frescor e sofisticação para qualquer ambiente.
+              </p>
+              <br />
+              <h6 class="card-subtitle">R$ 189,90</h6>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img"
+              src="./assets/bouquet-flor-5.jpg"
               class="card-img-top"
               alt="..."
             />
@@ -205,68 +263,6 @@
               </p>
               <br />
               <h6 class="card-subtitle">R$ 159,90</h6>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem">
-            <img
-              src="./assets/bouquet-flor-2.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Buquê de Tulipas Rosa</h5>
-              <p class="card-text">
-                Delicadas tulipas rosa em um arranjo encantador, trazendo
-                frescor e elegância para qualquer ambiente.
-              </p>
-              <br />
-              <h6 class="card-subtitle">R$ 179,90</h6>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="main-content-wrapper">
-        <h1 class="main-title">Plantas</h1>
-        <hr class="line" />
-        <div class="card-flower-wrapper">
-          <div class="card" style="width: 18rem">
-            <img src="./assets/plant-1.jpg" class="card-img-top" alt="Jiboia" />
-            <div class="card-body">
-              <h5 class="card-title">Jiboia Verde</h5>
-              <p class="card-text">
-                Uma planta fácil de cuidar, perfeita para ambientes internos,
-                com folhas verdes vibrantes que purificam o ar.
-              </p>
-              <h6 class="card-subtitle">Preço: R$ 49,90</h6>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem">
-            <img
-              src="./assets/plant-2.jpeg"
-              class="card-img-top"
-              alt="Espada-de-São-Jorge"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Espada-de-São-Jorge</h5>
-              <p class="card-text">
-                Símbolo de proteção, essa planta traz estilo e praticidade para
-                o seu lar.
-              </p>
-              <h6 class="card-subtitle">Preço: R$ 59,90</h6>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem">
-            <img
-              src="./assets/plant-3.jpg"
-              class="card-img-top"
-              alt="Suculenta"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Suculenta Minimalista</h5>
-              <p class="card-text">
-                Pequena, charmosa e resistente, ideal para mesas e estantes.
-              </p>
-              <h6 class="card-subtitle">Preço: R$ 29,90</h6>
             </div>
           </div>
         </div>
